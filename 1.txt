@@ -1,0 +1,14 @@
+
+### 8. `.gitignore`
+```gitignore
+/target/
+/.idea/
+/*.iml
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.properties
+!**/src/main/**/application.properties

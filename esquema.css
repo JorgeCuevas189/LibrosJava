@@ -1,0 +1,32 @@
+library-app/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── library/
+│   │   │               ├── LibraryApp.java
+│   │   │               ├── config/
+│   │   │               │   └── AppConfig.java
+│   │   │               ├── controller/
+│   │   │               │   └── LibraryController.java
+│   │   │               ├── model/
+│   │   │               │   ├── Author.java
+│   │   │               │   └── Book.java
+│   │   │               ├── repository/
+│   │   │               │   ├── AuthorRepository.java
+│   │   │               │   └── BookRepository.java
+│   │   │               └── service/
+│   │   │                   ├── GutenbergService.java
+│   │   │                   └── LibraryService.java
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
+│       └── java/
+│
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── README.md
